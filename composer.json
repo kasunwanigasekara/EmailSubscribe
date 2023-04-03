@@ -1,0 +1,20 @@
+{
+    "name": "kasunw/email-verication",
+    "description": "EmailVerification",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "EmailVerication\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kasun wanigasekara",
+            "email": "kasunwanigasekara@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.8",
+        "league/oauth2-google": "^4.0"
+    }
+}
